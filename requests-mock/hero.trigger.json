@@ -1,0 +1,76 @@
+{
+  "Records": [
+    {
+      "eventID": "60a122baf11af4e3110b96d01688bc8c",
+      "eventName": "REMOVE",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1672461911,
+        "Keys": {
+          "nome": {
+            "S": "Batman"
+          },
+          "id": {
+            "S": "70b2eeb0-88bb-11ed-8fcd-dd1d4a112df8"
+          }
+        },
+        "OldImage": {
+          "createdAt": {
+            "S": "2022-12-31T03:30:14.939Z"
+          },
+          "nome": {
+            "S": "Batman"
+          },
+          "id": {
+            "S": "70b2eeb0-88bb-11ed-8fcd-dd1d4a112df8"
+          },
+          "poder": {
+            "S": "Força"
+          }
+        },
+        "SequenceNumber": "211200000000018845072717",
+        "SizeBytes": 140,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:239993886565:table/Heroes/stream/2022-12-31T04:36:27.612"
+    },
+    {
+      "eventID": "bb4da9c3badaadc81d198faa671077f4",
+      "eventName": "REMOVE",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1672461911,
+        "Keys": {
+          "nome": {
+            "S": "Batman"
+          },
+          "id": {
+            "S": "89e5f920-88bd-11ed-95f7-31d27396ce9c"
+          }
+        },
+        "OldImage": {
+          "createdAt": {
+            "S": "2022-12-31T03:45:16.210Z"
+          },
+          "nome": {
+            "S": "Batman"
+          },
+          "id": {
+            "S": "89e5f920-88bd-11ed-95f7-31d27396ce9c"
+          },
+          "poder": {
+            "S": "Força"
+          }
+        },
+        "SequenceNumber": "211300000000018845072718",
+        "SizeBytes": 140,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:239993886565:table/Heroes/stream/2022-12-31T04:36:27.612"
+    }
+  ]
+}

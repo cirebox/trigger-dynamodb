@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1286.0"
+  },
+  "name": "trigger-dynamodb",
+  "description": "### Config Dashboad",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "invoke-local": "sls invoke local -f hero-insert --path requests-mock/hero.insert.json --l",
+    "invoke": "sls invoke -f hero-insert --path requests-mock/hero.insert.json --l",
+    "invoke-trigger": "sls invoke local -f hero-trigger --path requests-mock/hero.trigger.json --l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cirebox/trigger-dynamodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cirebox/trigger-dynamodb/issues"
+  },
+  "homepage": "https://github.com/cirebox/trigger-dynamodb#readme"
+}
